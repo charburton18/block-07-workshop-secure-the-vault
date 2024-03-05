@@ -22,3 +22,37 @@ alert(`${userInstructions} ${num1} ${num2} ${num3}`);
 // Another way of writing this last line is:
 // console.log(userInstructions + " " + num1 + " " + num2 + " " + num3);
 
+
+// STRETCH GOAL BELOW:
+
+// ask the user to enter 3 numbers as if they are "choosing" the combination. 
+// let userCombination =
+// prompt("Enter your own combination of three numbers here, separated by spaces:", "3 25 24");
+
+// Then display a dialog box that displays all three numbers to them as the combo they have picked.
+// if (userCombination != null) {
+//   alert("Your combination is: " + userCombination);
+// }
+
+// if you want to display all three numbers in the HTML:
+// if (userCombination != null) {
+//   document.getElementById("confirmationText").innerHTML =
+//   "Your combination is " + userCombination;
+// }
+
+
+// SUPER STRETCH GOAL
+
+// Stretch stretch goal: Ask the user to guess the combo using prompt 
+// and then tell them if they are correct or not. 
+// This will probably need if( ) statements which we won't cover until tomorrow.
+
+// let userGuess =
+// prompt("Guess the combination (three two-digit numbers separated by spaces):", "** ** **");
+
+// if (userGuess == "69 69 69") {
+//   alert("Congratulations! You guessed the correct combination!");
+// } else {
+//   alert("Sorry, that wasn't the correct combination. Refresh the page to try again.")
+// }
+
